@@ -299,7 +299,25 @@ nav a.contact-link:hover{
     grid-template-columns: 1fr 3fr 1fr;
 }
 
+.center-column {
+    padding: min(2em, 7%) 0em;
+    gap: 2em;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.center-column h1 {
+    font-size: 6em;
+}
 
 /* Contact Page Layout Styles */
 
