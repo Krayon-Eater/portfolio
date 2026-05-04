@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118.84 158.57">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #271f10;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <circle class="cls-1" cx="74" cy="113.21" r="16.7"/>
+        <g>
+          <g id="_Radial_Repeat_" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <polygon class="cls-1" points="33.22 111.61 54.75 105.71 53.14 121.66 33.22 111.61"/>
+          </g>
+          <g id="_Radial_Repeat_-2" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <polygon class="cls-1" points="48.69 82.55 68.09 93.6 55.67 103.75 48.69 82.55"/>
+          </g>
+          <g id="_Radial_Repeat_-3" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <polygon class="cls-1" points="80.18 72.94 86.08 94.47 70.12 92.87 80.18 72.94"/>
+          </g>
+        </g>
+        <polygon class="cls-1" points="101.02 144.68 80.39 132.92 93.6 122.13 101.02 144.68"/>
+      </g>
+      <g>
+        <circle class="cls-1" cx="45.34" cy="40.74" r="16.7"/>
+        <g>
+          <g id="_Radial_Repeat_-4" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <polygon class="cls-1" points="42.98 0 50.95 20.85 34.91 20.81 42.98 0"/>
+          </g>
+          <g id="_Radial_Repeat_-5" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <polygon class="cls-1" points="73.4 12.58 64.29 32.95 52.98 21.58 73.4 12.58"/>
+          </g>
+          <g id="_Radial_Repeat_-6" data-name="&amp;lt;Radial Repeat&amp;gt;">
+            <polygon class="cls-1" points="86.02 42.98 65.17 50.95 65.22 34.91 86.02 42.98"/>
+          </g>
+        </g>
+        <polygon class="cls-1" points="16.65 70.69 26.35 49.01 38.38 61.11 16.65 70.69"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,411 @@
+* {
+
+    outline: 1px solid red;
+
+    box-sizing: border-box;
+
+    
+}
+
+
+:root {
+    
+    font-size: 18pt;
+    --primaryColor: rgb(127, 90, 154);
+    --secondaryColor: rgb(206, 169, 120);
+
+    --h1FontSize: 2rem;
+    --headingFF: "sans-serif";
+
+    --cardPadding: 10px;
+    --containerPadding: 20px;
+
+    --gridGap: 20px;
+
+    --headerHeight: 100px;
+
+    font-family: var(--headingFF);
+
+    
+}
+
+body {
+
+    margin: 0px;
+    margin-top: var(--headerHeight);
+    
+}
+
+
+/* GLOBAL STYLES */
+
+.grid3x1 {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: var(--gridGap);
+    padding: var(--containerPadding);
+}
+
+
+.img-placeholder {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 200px;
+    max-height: 600px;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+a {
+
+    text-decoration: none;
+    
+   
+}
+
+
+
+
+/* HEADER */
+
+
+header {
+
+    background-color: var(--secondaryColor);
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+    align-items: center;
+
+    width: 100vw;
+
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    padding: 0px var(--containerPadding);
+}
+
+nav {
+    justify-self: right;
+    display: flex;
+    gap: 20px;
+}
+
+nav > a {
+    color: var(--primaryColor);
+    font-size: 1.3rem;
+    padding: var(--cardPadding);
+}
+
+nav > a:hover {
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+.brand {
+    font-size: 2.5rem;
+    color: var(--primaryColor);
+}
+
+nav > a:nth-of-type(1) {} 
+
+nav > a:nth-of-type(2), nav > a:nth-of-type(3), nav > a:nth-of-type(4), nav > a:nth-of-type(5) {display: none;}
+
+
+.overlay-menu {
+
+    background-color: var(--primaryColor);
+    width: 0vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.3rem;
+    color: var(--secondaryColor);
+    transition: ease-in-out 0.9s;
+    overflow: hidden;
+}
+
+#overlay-menu a {
+
+    color: var(--secondaryColor);
+    padding: var(--cardPadding);
+}
+
+#overlay-menu a:nth-of-type(1) {
+
+    position: absolute;
+    top: var(--containerPadding);
+    right: var(--containerPadding);
+
+
+}
+
+/* .open {
+
+    display: flex;
+} */
+
+
+
+
+/* HEADER END */
+
+
+
+
+/* STUDENTS PAGE */
+
+#students {
+
+    background-color: violet;
+    
+
+}
+
+#students a {
+
+    color: unset;
+}
+
+#student-grid {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: var(--gridGap);
+
+    background-color: lightseagreen;
+    padding: var(--containerPadding);
+}
+
+/* Student Cards */
+#student-grid > div {
+
+    background-color: var(--secondaryColor);
+    padding: var(--cardPadding);
+}
+
+#student-grid > div:hover {
+
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+}
+
+
+/* Student Cards END */
+
+/* STUDENTS PAGE END */
+
+
+/* BIOS PAGE */
+
+section#bios {
+
+  
+    background-color: lightseagreen;
+
+}
+
+.student-bio {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: var(--gridGap);
+}
+
+
+.student-bio img {
+
+    object-fit: cover;
+}
+
+
+/* BIOS PAGE END */
+
+
+
+section#hero {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+
+
+}
+
+.hero-text {
+
+    font-size: var(--h1FontSize);
+    color: var(--primaryColor);
+
+}
+
+img {
+
+    width: 100%;
+    height: auto;
+}
+
+section#poster {
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+#site-background {
+
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+
+div#carousel {
+
+    background-color: blueviolet;
+    overflow-x: hidden;
+    border-radius: 50%;
+    animation: propeller 40s linear infinite;
+    transform: translate(-200px) scale(200%);
+
+    filter: blur(50px);
+    position: absolute;
+    z-index: -1;
+}
+
+#carousel-wrapper {
+
+    display: flex;
+    flex-direction: row;
+
+    animation: carousel-move 4s linear infinite;
+    
+}
+
+#carousel-wrapper > div {
+
+    min-width: 400px;
+    min-height: 400px;
+}
+
+#carousel-wrapper > div:nth-of-type(odd) {
+
+    background-color: var(--primaryColor);
+
+}
+
+#carousel-wrapper > div:nth-of-type(even) {
+
+    background-color: var(--secondaryColor);
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: var(--secondaryColor);
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER END */
+
+
+/* ANIMATIONS */
+
+@keyframes carousel-move {
+
+    from {transform: translateX(0);}
+    to {transform: translateX(-800px);}
+    
+}
+
+@keyframes propeller {
+
+    from {transform: rotate(0);}
+    to {transform: rotate(360deg);}
+    
+}
+
+/* Styles for iPad */
+
+@media screen and (min-width: 768px) {
+
+    header {
+
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    #student-grid {
+
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.student-bio {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr);
+    gap: var(--gridGap);
+}
+
+}
+
+/* Styles for Desktop */
+
+@media screen and (min-width: 992px) {
+
+
+    .grid3x1 {
+
+    grid-template-columns: repeat(1, 1fr 4fr 1fr);
+}
+
+ #student-grid {
+
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.grid3x1 > :nth-child(1) {
+
+    grid-column: 2;
+    grid-row: 1;
+}
+
+/* make sure to have only one div inside sections that have this class */
+.grid3x1 > :nth-child(2) { 
+
+    grid-column: 2;
+    grid-row: 2;
+}
+    nav > a:nth-of-type(1) {display: none;} 
+
+    nav > a:nth-of-type(2), nav > a:nth-of-type(3), nav > a:nth-of-type(4), nav > a:nth-of-type(5) {display:unset;}
+    
+}
+
+    
