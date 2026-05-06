@@ -359,7 +359,7 @@ nav a.contact-link:hover{
 
 #about {
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 7fr 1fr;
 }
 
 #about .center-column {
@@ -401,7 +401,7 @@ nav a.contact-link:hover{
 
 #contact-page {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
 }
 
 #contact-page h1 {
@@ -526,6 +526,9 @@ nav a.contact-link:hover{
         grid-template-rows: auto;
         grid-auto-flow: dense;
     }
+    #about {
+        grid-template-columns: 1fr 5fr 1fr;
+    }
     #footer-info {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -546,6 +549,9 @@ nav a.contact-link:hover{
         grid-template-columns: repeat(7, 1fr);
         grid-template-rows: auto;
         grid-auto-flow: dense;
+    }
+    #about {
+        grid-template-columns: 1fr 3fr 1fr;
     }
     #footer-info {
         grid-template-columns: 1fr 1fr 1fr;
