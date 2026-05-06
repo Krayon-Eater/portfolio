@@ -18,6 +18,10 @@
 
 /* Font Styles */
 
+.helvetica {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .redaction {
     font-family: "redaction", sans-serif;
     font-weight: 400;
@@ -68,6 +72,19 @@ footer {
     color: var(--primaryLight);
 }
 
+#footer-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.left-column, .center-column, .right-column{
+    padding: 0.25em 3em;
+    gap: 0.5em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 /* Navigation Section Layout Styles */
 
 nav {
@@ -200,10 +217,11 @@ nav a.contact-link:hover{
 
 .carousel-container {
     width: 100vw;
-    height: 2.5rem;
+    height: 2.5em;
     color: var(--primaryLight);
 
     display: flex;
+    flex-direction: row;
     align-items: center;
     overflow: hidden;
 }
@@ -215,12 +233,10 @@ nav a.contact-link:hover{
     gap: 1em;
     padding-right: 1em;
 
-    animation: spin linear 12s infinite;
+    animation: carousel 12s linear infinite;
 }
 
 .carousel-card {
-    display: flex;
-    width: auto;
     height: 100%;
     white-space: nowrap;
 }
@@ -345,7 +361,7 @@ nav a.contact-link:hover{
     grid-template-columns: 1fr 5fr 1fr;
 }
 
-.center-column {
+#about .center-column {
     padding: min(2em, 7%) 0em;
     gap: 2em;
 
@@ -355,18 +371,18 @@ nav a.contact-link:hover{
     align-items: center;
 }
 
-.center-column div {
+#about .center-column div {
     display: flex;
     justify-content: center;
 }
 
-.center-column img {
+#about .center-column img {
     width: 80%;
     height: auto;
     border-radius: 50%;
 }
 
-.center-column h1 {
+#about .center-column h1 {
     font-size: 3em;
 }
 
@@ -399,10 +415,9 @@ nav a.contact-link:hover{
 }
 
 #contact-container {
+    width: 100%;
+    height: min(100px, 15%);
     font-size: 2em;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
     padding: 0.5em 3em;
 }
 
@@ -423,6 +438,8 @@ nav a.contact-link:hover{
 
 #subject {
     position: relative;
+    top: 5%;
+    left: 65%;
     width: 30%;
     height: 3rem;
     padding: 0.5em;
@@ -439,7 +456,7 @@ nav a.contact-link:hover{
 #message {
     position: relative;
     width: 100%;
-    height: rem;
+    height: max(10em, 12%);
     padding: 0.5em;
     border: none;
     background-color: var(--accentGreen);
@@ -476,9 +493,9 @@ nav a.contact-link:hover{
                                                                                  
 */
 
-@keyframes spin {
+@keyframes carousel {
     from {transform: translateX(100%);}
-    to {transform: translateX(0);}
+    to {transform: translateX(0%);}
 }
 
 /* 

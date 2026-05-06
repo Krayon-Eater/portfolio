@@ -10,54 +10,68 @@
     <link rel="stylesheet" href="https://use.typekit.net/ifd0yye.css">
     <script src="script.js" defer></script>
 </head>
-    <body>
-        <div id="overlay-menu" class="overlay-menu" onclick="closeOverlay()">
+<body>
+    <div id="overlay-menu" class="overlay-menu" onclick="closeOverlay()">
+        <a class="home-link" href="index.html"><h2>projects</h2></a>
+        <a class="about-link" href="about.html"><h2>about</h2></a>
+        <a class="contact-link" href="contact.html"><h2>contact</h2></a>
+        <a href="#" onclick="closeOverlay()"><svg xmlns="http://www.w3.org/2000/svg" id="overlay-close" class="ionicon" viewBox="0 0 512 512"><path d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"/></svg></a>
+    </div>
+    <header>
+        <nav>
+            <a class="logo" href="index.html"><img src="A2 Ouillette Content/Logo Color.svg" alt="Keegan Ouillette Logo"></a>
             <a class="home-link" href="index.html"><h2>projects</h2></a>
             <a class="about-link" href="about.html"><h2>about</h2></a>
             <a class="contact-link" href="contact.html"><h2>contact</h2></a>
-            <a href="#" onclick="closeOverlay()"><svg xmlns="http://www.w3.org/2000/svg" id="overlay-close" class="ionicon" viewBox="0 0 512 512"><path d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"/></svg></a>
-        </div>
-        <header>
-            <nav>
-                <a class="logo" href="index.html"><img src="A2 Ouillette Content/Logo Color.svg" alt="Keegan Ouillette Logo"></a>
-                <a class="home-link" href="index.html"><h2>projects</h2></a>
-                <a class="about-link" href="about.html"><h2>about</h2></a>
-                <a class="contact-link" href="contact.html"><h2>contact</h2></a>
-                <a href="#" onclick="openOverlay()"><svg xmlns="http://www.w3.org/2000/svg" id="overlay-open" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="48" d="M88 152h336M88 256h336M88 360h336"/></svg></a>
-            </nav>
-            <!-- Insert a carousel news-strip for announcements -->
-            <div class="carousel-container">
-                <div class="carousel">
-                    <span class="carousel-card redaction">Welcome to my Website!</span>
-                    <span class="carousel-card redaction">Exciting news! I will be launching a new project soon. Stay tuned for updates.</span>
-                </div>
-                <!-- Duplicate info on carousel to create seamless transition -->
-                <div aria-hidden class="carousel">
-                    <span class="carousel-card redaction">Welcome to my Website!</span>
-                    <span class="carousel-card redaction">Exciting news! I will be launching a new project soon. Stay tuned for updates.</span>
-                </div>
+            <a href="#" onclick="openOverlay()"><svg xmlns="http://www.w3.org/2000/svg" id="overlay-open" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="48" d="M88 152h336M88 256h336M88 360h336"/></svg></a>
+        </nav>
+        <!-- Insert a carousel news-strip for announcements -->
+        <div class="carousel-container">
+            <div class="carousel">
+                <span class="carousel-card redaction">Welcome to my Website!</span>
+                <span class="carousel-card redaction">Exciting news! I will be launching a new project soon. Stay tuned for updates.</span>
             </div>
-        </header>
+            <!-- Duplicate info on carousel to create seamless transition -->
+            <div aria-hidden class="carousel">
+                <span class="carousel-card redaction">Welcome to my Website!</span>
+                <span class="carousel-card redaction">Exciting news! I will be launching a new project soon. Stay tuned for updates.</span>
+            </div>
+        </div>
+    </header>
 
-        <main>
-            <section id="project-detail-container">
-                <div class="project-description">
-                    <h1 class="title">Dare Deck</h1>
-                    <p class="description"><br>The Dare Deck is a card game designed to add excitement and spontaneity to social gatherings. The game consists of a deck of cards, each containing a unique dare or challenge that players must complete when drawn. The dares can range from silly and lighthearted to daring and adventurous, making it suitable for players of all ages and comfort levels. The Dare Deck encourages players to step out of their comfort zones, fostering laughter, bonding, and memorable experiences among friends and family. Whether it's a party, game night, or casual get-together, the Dare Deck is sure to bring fun and laughter to any occasion.
-                    </p>
-                </div>
-                <div class="project-images">
-                    <div class="landscape"><img src="A2 Ouillette Content/Dare Deck/dare-deck-packaging2.webp" alt="A layout spread of the deck of cards"></div>
-                    <div class="square"><img src="A2 Ouillette Content/Dare Deck/dare-deck-packaging1.webp" alt="Minimal showcase of the front and back of cards, as well as, deck case"></div>
-                    <div class="landscape"><img src="A2 Ouillette Content/Dare Deck/dare-deck-packaging3.webp" alt="The deck of cards barely out of the box"></div>
-                    <div class="landscape"><img src="A2 Ouillette Content/Dare Deck/dare-deck-lanyard.webp" alt="Dare Deck sponsored lanyard for promotors and staff"></div>
-                    <div class="square"><img src="A2 Ouillette Content/Dare Deck/dare-deck-hoodie.webp" alt="Dare Deck sponsored hoodie for event promotors and staff."></div>
-                </div>
-            </section>
-        </main>
+    <main>
+        <section id="project-detail-container">
+            <div class="project-description">
+                <h1 class="title">Dare Deck</h1>
+                <p class="description"><br>The Dare Deck is a card game designed to add excitement and spontaneity to social gatherings. The game consists of a deck of cards, each containing a unique dare or challenge that players must complete when drawn. The dares can range from silly and lighthearted to daring and adventurous, making it suitable for players of all ages and comfort levels. The Dare Deck encourages players to step out of their comfort zones, fostering laughter, bonding, and memorable experiences among friends and family. Whether it's a party, game night, or casual get-together, the Dare Deck is sure to bring fun and laughter to any occasion.
+                </p>
+            </div>
+            <div class="project-images">
+                <div class="landscape"><img src="A2 Ouillette Content/Dare Deck/dare-deck-packaging2.webp" alt="A layout spread of the deck of cards"></div>
+                <div class="square"><img src="A2 Ouillette Content/Dare Deck/dare-deck-packaging1.webp" alt="Minimal showcase of the front and back of cards, as well as, deck case"></div>
+                <div class="landscape"><img src="A2 Ouillette Content/Dare Deck/dare-deck-packaging3.webp" alt="The deck of cards barely out of the box"></div>
+                <div class="landscape"><img src="A2 Ouillette Content/Dare Deck/dare-deck-lanyard.webp" alt="Dare Deck sponsored lanyard for promotors and staff"></div>
+                <div class="square"><img src="A2 Ouillette Content/Dare Deck/dare-deck-hoodie.webp" alt="Dare Deck sponsored hoodie for event promotors and staff."></div>
+            </div>
+        </section>
+    </main>
 
-        <footer>
-            <p>2026 Keegan Ouillette. All rights reserved.</p>
-        </footer>
-    </body>
+    <footer>
+        <section id="footer-info">
+            <div class="left-column">
+                <h3><b>Keegan Ouillete</b></h3>
+                <p class="helvetica">Central Michigan University</p>
+                <p class="helvetica">Mt Pleasant, MI 48858</p>
+            </div>
+            <div class="center-column">
+                <h3><b>Contact Me</b></h3>
+                <p class="helvetica">ouill1kj@cmich.edu</p>
+            </div>
+            <div class="right-column">
+                <h3><b>Socials</b></h3>
+            </div>
+        </section>
+        <p>2026 Keegan Ouillette. All rights reserved.</p>
+    </footer>
+</body>
 </html>
