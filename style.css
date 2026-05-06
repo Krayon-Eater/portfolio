@@ -42,7 +42,7 @@ body {
 
 header {
     width: 100vw;
-    height: max(2rem, 15vh);
+    height: min(100px, 15vh);
     background-color: var(--primaryDark);
 
     display: flex;
@@ -342,7 +342,7 @@ nav a.contact-link:hover{
 
 #about {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr;
 }
 
 .center-column {
@@ -355,8 +355,13 @@ nav a.contact-link:hover{
     align-items: center;
 }
 
+.center-column div {
+    display: flex;
+    justify-content: center;
+}
+
 .center-column img {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 50%;
 }
@@ -499,7 +504,7 @@ nav a.contact-link:hover{
         grid-template-columns: 1fr 1fr;
     }
     .project-images {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(5, 1fr);
         grid-template-rows: auto;
         grid-auto-flow: dense;
     }
@@ -517,7 +522,7 @@ nav a.contact-link:hover{
         grid-template-columns: 1fr 2fr;
     }
     .project-images {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(7, 1fr);
         grid-template-rows: auto;
         grid-auto-flow: dense;
     }
