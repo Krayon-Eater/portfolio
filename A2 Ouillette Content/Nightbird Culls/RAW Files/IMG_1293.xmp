@@ -1,0 +1,104 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:exif="http://ns.adobe.com/exif/1.0/"
+    xmlns:aux="http://ns.adobe.com/exif/1.0/aux/"
+    xmlns:exifEX="http://cipa.jp/exif/1.0/"
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:crd="http://ns.adobe.com/camera-raw-defaults/1.0/"
+   xmp:Rating="5"
+   xmp:ModifyDate="2025-05-02T17:31:26.48"
+   xmp:CreateDate="2025-05-02T17:31:26.48"
+   xmp:MetadataDate="2026-05-02T17:51:33-04:00"
+   tiff:Make="Canon"
+   tiff:Model="Canon EOS Rebel T6"
+   tiff:Orientation="1"
+   tiff:ImageWidth="5184"
+   tiff:ImageLength="3456"
+   tiff:PhotometricInterpretation="2"
+   tiff:SamplesPerPixel="3"
+   exif:ExifVersion="0230"
+   exif:ExposureTime="1/800"
+   exif:ShutterSpeedValue="9643856/1000000"
+   exif:FNumber="56/10"
+   exif:ApertureValue="4970854/1000000"
+   exif:ExposureProgram="1"
+   exif:SensitivityType="2"
+   exif:RecommendedExposureIndex="200"
+   exif:ExposureBiasValue="0/1"
+   exif:MaxApertureValue="3625/1000"
+   exif:MeteringMode="2"
+   exif:FocalLength="20/1"
+   exif:CustomRendered="0"
+   exif:ExposureMode="1"
+   exif:WhiteBalance="0"
+   exif:SceneCaptureType="0"
+   exif:FocalPlaneXResolution="5184000/905"
+   exif:FocalPlaneYResolution="3456000/595"
+   exif:FocalPlaneResolutionUnit="2"
+   exif:DateTimeOriginal="2025-05-02T17:31:26.48"
+   exif:PixelXDimension="5184"
+   exif:PixelYDimension="3456"
+   aux:SerialNumber="282073100682"
+   aux:LensInfo="18/1 55/1 0/0 0/0"
+   aux:Lens="EF-S18-55mm f/3.5-5.6 IS II"
+   aux:LensID="52"
+   aux:LensSerialNumber="00003a576e"
+   aux:ImageNumber="0"
+   aux:ApproximateFocusDistance="52/100"
+   aux:FlashCompensation="0/1"
+   aux:Firmware="1.1.0"
+   exifEX:LensModel="EF-S18-55mm f/3.5-5.6 IS II"
+   photoshop:DateCreated="2025-05-02T17:31:26.48"
+   photoshop:ColorMode="3"
+   photoshop:ICCProfile=""
+   photoshop:SidecarForExtension="CR2"
+   photoshop:EmbeddedXMPDigest="AD0ACF660F79AC49FD004B2DD3BC0461"
+   xmpMM:DocumentID="EFD6A047D652A125E329EA71F6B073A3"
+   xmpMM:OriginalDocumentID="EFD6A047D652A125E329EA71F6B073A3"
+   xmpMM:InstanceID="xmp.iid:1ffdd6ec-c482-463c-9fd1-2a7493f43afd"
+   dc:format="image/x-canon-cr2"
+   crd:CameraProfile="Camera Auto"
+   crd:LookName="">
+   <tiff:BitsPerSample>
+    <rdf:Seq>
+     <rdf:li>16</rdf:li>
+     <rdf:li>16</rdf:li>
+     <rdf:li>16</rdf:li>
+    </rdf:Seq>
+   </tiff:BitsPerSample>
+   <exif:ISOSpeedRatings>
+    <rdf:Seq>
+     <rdf:li>200</rdf:li>
+    </rdf:Seq>
+   </exif:ISOSpeedRatings>
+   <exif:Flash
+    exif:Fired="False"
+    exif:Return="0"
+    exif:Mode="2"
+    exif:Function="False"
+    exif:RedEyeMode="False"/>
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:891e8336-b1cd-40f4-a7d4-22ab88d1985e"
+      stEvt:when="2026-05-02T17:51:33-04:00"
+      stEvt:softwareAgent="Adobe Photoshop Camera Raw 18.3"
+      stEvt:changed="/metadata"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:1ffdd6ec-c482-463c-9fd1-2a7493f43afd"
+      stEvt:when="2026-05-02T17:51:33-04:00"
+      stEvt:softwareAgent="Adobe Photoshop Camera Raw 18.3 (Macintosh)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

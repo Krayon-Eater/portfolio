@@ -74,7 +74,8 @@ footer {
 
 #footer-info {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
 }
 
 .left-column, .center-column, .right-column{
@@ -525,6 +526,9 @@ nav a.contact-link:hover{
         grid-template-rows: auto;
         grid-auto-flow: dense;
     }
+    #footer-info {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 /* Desktop Layout Styles */
@@ -542,6 +546,9 @@ nav a.contact-link:hover{
         grid-template-columns: repeat(7, 1fr);
         grid-template-rows: auto;
         grid-auto-flow: dense;
+    }
+    #footer-info {
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
 }
