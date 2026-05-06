@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keegan Ouillette | Project | Dinotopia Typeface</title>
+
+    <link rel="icon" type="image/x-icon" href="/A2 Ouillette Content/Logo Color.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ifd0yye.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="overlay-menu" class="overlay-menu" onclick="closeOverlay()">
+        <a class="home-link" href="index.html"><h2>projects</h2></a>
+        <a class="about-link" href="about.html"><h2>about</h2></a>
+        <a class="contact-link" href="contact.html"><h2>contact</h2></a>
+        <a href="#" onclick="closeOverlay()"><svg xmlns="http://www.w3.org/2000/svg" id="overlay-close" class="ionicon" viewBox="0 0 512 512"><path d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"/></svg></a>
+    </div>
+    <header>
+        <nav>
+            <a class="logo" href="index.html#hero"><img src="A2 Ouillette Content/Logo Color.svg" alt="Keegan Ouillette Logo"></a>
+            <a class="home-link" href="index.html"><h2>projects</h2></a>
+            <a class="about-link" href="about.html"><h2>about</h2></a>
+            <a class="contact-link" href="contact.html"><h2>contact</h2></a>
+            <a href="#" onclick="openOverlay()"><svg xmlns="http://www.w3.org/2000/svg" id="overlay-open" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="48" d="M88 152h336M88 256h336M88 360h336"/></svg></a>
+        </nav>
+        <!-- Insert a carousel news-strip for announcements -->
+        <div class="carousel-container">
+            <div class="carousel">
+                <span class="carousel-card redaction">Welcome to my Website!</span>
+                <span class="carousel-card redaction">Exciting news! I will be launching a new project soon. Stay tuned for updates.</span>
+            </div>
+            <!-- Duplicate info on carousel to create seamless transition -->
+            <div aria-hidden class="carousel">
+                <span class="carousel-card redaction">Welcome to my Website!</span>
+                <span class="carousel-card redaction">Exciting news! I will be launching a new project soon. Stay tuned for updates.</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="project-detail-container">
+            <div class="project-description">
+                <h1 class="title">Dinotopia Typeface</h1>
+                <p class="description"><br>Footprint language is the fictional written language used by the characters in the world of Dinotopia. My inspiration came from my love for dinosaurs and the unique pictographic use of a footprint to convey complex meaning. I wanted to create a typeface that would capture the essence of the Dinotopia world and its unique written language. I wanted to create a typeface as to the source material as possible, despite the rather inlegibility. The typeface can be best used in a few various applications, such as coded language puzzles, anything with a dinosaur theme, and as a stamp tool.
+                </p>
+            </div>
+            <div class="project-images">
+                <div class="landscape"><img src="A2 Ouillette Content/Dinotopia Typeface/Dinotopia Language Tablet.png" alt="The decoded guide to show what letter corresponds with what stamp"></div>
+                <div class="square"><img src="A2 Ouillette Content/Dinotopia Typeface/Jurassic Park.png" alt="The Jurassic Park logo reimagined"></div>
+                <div class="landscape"><img src="A2 Ouillette Content/Dinotopia Typeface/Welcome To Jurassic Park.png" alt="A stone sign welcoming visitors to Jurassic Park"></div>
+                <div class="portrait"><img src="A2 Ouillette Content/Dinotopia Typeface/dino-sweater.png" alt="Dinosaur themed sweater merchandise"></div>
+                <div class="square"><img src="A2 Ouillette Content/Dinotopia Typeface/jurassic-bucket-hats.png" alt="Dinosaur themed bucket hat merchandise"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 Keegan Ouillette. All rights reserved.</p>
+    </footer>
+</body>
+</html>
